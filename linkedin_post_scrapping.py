@@ -14,10 +14,10 @@ browser.maximize_window()
 time.sleep(2)
 
 username = browser.find_element_by_name("session_key")
-username.send_keys("ragulsangeethm@gmail.com")
+username.send_keys("samsubca09@gmail.com")
 # Enter username as mail id
 password = browser.find_element_by_name("session_password")
-password.send_keys("ragul123@")
+password.send_keys("xxxxxx")
 # Enter password
 
 login_button = browser.find_element_by_class_name("login__form_action_container").click()
